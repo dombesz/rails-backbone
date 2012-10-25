@@ -1,2 +1,8 @@
-Model
-<%= @model.id %>
+<div class="product">
+  <span class="name"><%= @model.get('name') %></span>
+  <small class="price">$<%= @model.get('price') %></small>
+  <img class="img-polaroid" src="<%= @model.get("image_url") %>"></img>
+  <span><a href="#" class="btn btn-success buy">Buy (<%= @model.get('count') %> left)
+  </a></span>
+  
+</div>

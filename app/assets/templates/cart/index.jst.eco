@@ -1,0 +1,7 @@
+<div class="well sidebar-nav">
+  <h3 class="nav-header">Sidebar</h3>
+  <ul class="nav nav-list" id="cart-items">
+    <li><a href="#">Your cart is empty.</a></li>
+  </ul>
+  Total: <span class="cart-total"></span>
+</div><!--/.well -->

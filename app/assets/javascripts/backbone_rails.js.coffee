@@ -3,7 +3,12 @@ window.BackboneRails =
   Collections: {}
   Views: {}
   Routers: {}
+window.vent =  _.extend({}, Backbone.Events)
 
 $(document).ready ->
   products_router = new window.BackboneRails.Routers.Products()
-  Backbone.history.start()  
+
+  cart = new window.BackboneRails.Views.CartShow()
+
+  $("#sidebar-content").html(cart.render().el);
+  Backbone.history.start()

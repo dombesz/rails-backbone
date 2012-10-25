@@ -1,5 +1,4 @@
-<h1>Products</h1>
-
+<h1>Products <a href="#" id="add-product" class="btn btn-primary right">Add product</a></h1>
 <div id="products">
   
 </div>

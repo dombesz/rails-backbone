@@ -21,4 +21,6 @@
 //= require_tree ./collections
 //= require_tree ./views
 //= require_tree ./routers
+//= require ./vendor/modelbinder/Backbone.ModelBinder.js
+//= require ./vendor/modelbinder/Backbone.CollectionBinder.js
 //= require_tree .

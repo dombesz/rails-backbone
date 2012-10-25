@@ -1,0 +1,1 @@
+<%= @model.get('name') %> - $<%= @model.get('price') %>  <i class="icon-remove right"></i>

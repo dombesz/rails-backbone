@@ -60,22 +60,9 @@
           <div class="span9" id="body-content">
              <%= yield %>
           </div>
-          <div class="span3">
-            <div class="well sidebar-nav">
-              <h3>Sidebar</h3>
-              <ul class="nav nav-list">
-                <li class="nav-header">Sidebar</li>
-                <li><%= link_to "Link1", "/path1"  %></li>
-                <li><%= link_to "Link2", "/path2"  %></li>
-                <li><%= link_to "Link3", "/path3"  %></li>
-              </ul>
-            </div><!--/.well -->
+          <div class="span3" id="sidebar-content">
           </div><!--/span-->
         </div><!--/row-->
-
-      <footer>
-        <p>&copy; Company 2012</p>
-      </footer>
 
     </div> <!-- /container -->
 
@@ -83,6 +70,8 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <%= javascript_include_tag "application" %>
-
+    <div id="modal-container">
+      
+    </div>
   </body>
 </html>
