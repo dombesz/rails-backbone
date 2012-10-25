@@ -5,3 +5,5 @@ window.BackboneRails =
   Routers: {}
 
 $(document).ready ->
+  products_router = new window.BackboneRails.Routers.Products()
+  Backbone.history.start()  
