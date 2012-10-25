@@ -3,7 +3,5 @@ window.BackboneRails =
   Collections: {}
   Views: {}
   Routers: {}
-  init: -> alert 'Hello from Backbone!'
 
 $(document).ready ->
-  BackboneRails.init()
